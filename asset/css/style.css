@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid pink; */
+}
+
+.main {
+    height: 97.5vh;
+    width: 100vw;
+    background-image: url(/asset/image/image1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+
+
+
+}
+
+
+.content li {
+    display: inline-block;
+    align-items: center;
+    padding: 7px;
+    margin-right: 10px;
+    /* margin-right: 3rem; */
+    cursor: pointer;
+    color: white;
+    opacity: 60%;
+
+}
+
+.content li:hover{
+    color:rgb(230, 109, 38) ;
+}
+
+#login {
+    margin-right: 12rem;
+}
+
+#home {
+    color: white;
+    font-weight: bold;
+}
+
+#deluxe {
+    align-items: center;
+    
+    font-size: 20px;
+    color: rgb(221, 212, 212);
+   
+   
+
+}
+
+#deluxeDiv{
+    width: auto;
+    margin-right: 42.50rem;
+    border-bottom: 2px solid white;
+    margin-left: 40rem;
+    margin-top: 10rem;
+    border-top: 2px solid white;
+}
+
+.vacation {
+    color: white;
+    margin-left: 30rem;
+    margin-top: 3rem;
+}
+
+.btn {
+    background-color: rgb(230, 109, 38);
+    margin-left: 40rem;
+    padding: 15px;
+    border-radius: 35px;
+    font-size: 20px;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(230, 109, 38);
+    cursor: pointer;
+}
+
+.footer {
+    border: 1px solid rgb(230, 109, 38);
+    height: 10vh;
+    width: 80vw;
+    margin-top: 12.7rem;
+    background-color: rgb(230, 109, 38);
+    margin-left: 10rem;
+
+
+}
+
+.select {
+    background-color: rgb(230, 109, 38);
+    color: white;
+    /* margin-top: -1.5rem; */
+    /* margin-left: 1rem; */
+    border: 2px solid rgb(208, 204, 204);
+    padding: 10px;
+    padding-right: 55px;
+    font-weight: bold;
+    /* font-size: 15px; */
+    position: relative;
+    top: -1.2rem;
+
+}
+
+.orange {
+    height: 10vh;
+    width: 60vw;
+    background-color: rgb(230, 109, 38);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10rem;
+    padding: 5px;
+
+}
+.orange p{
+    position: absolute;
+    left: 30vh;
+    top: 4vh;
+    color: white;
+    font-weight: bold;
+}
+#textarea{
+    margin-left: 12.5vw;
+    margin-top: 0.5rem;
+    background-color: rgb(230, 109, 38);
+    border: 1px solid white;
+}
+
+.orange h4{
+    margin-left: 37vw;
+  position: absolute;
+  top: 4vh;
+  color: white;
+  
+
+}
+
+.available{
+    height: 10vh;
+    width: 15vw;
+    position: absolute;
+    right: 13.1vw;
+    bottom: 0;
+    background-color: rgb(73, 72, 72);
+    display: flex;
+    justify-content: space-between;
+}
+.available p{
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+}
+.button{
+    height: 5vh;
+    width: 2vw;
+    margin-top: 3vh;
+    background-color: rgb(73, 72, 72);
+    border: 1px solid rgb(73, 72, 72);
+    color: rgb(230, 109, 38);
+}
